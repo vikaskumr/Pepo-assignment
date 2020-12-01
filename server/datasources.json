@@ -1,0 +1,20 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "transactional": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "peppo",
+    "name": "transactional",
+    "connector": "mongodb",
+    "lazyConnect": true,
+    "autoReconnect": true,
+    "reconnectTries": 50,
+    "reconnectInterval": 1000,
+    "keepAlive": true,
+    "connectionTimeout": 300000,
+    "socketTimeout": 300000
+  }
+}
